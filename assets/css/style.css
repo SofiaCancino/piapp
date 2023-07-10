@@ -1,0 +1,296 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family:'Courier New', Courier, monospace ;
+	
+	background-image: url('/img/leaves.jpg');
+}
+
+input[type="text"], input[type="password"],input[type="number"]{
+	outline:none;
+	padding:20px;
+	display:block;
+	width:300px;
+	border-radius: 20px;
+	border: 1px solid #eee;
+	margin:20px auto;
+	
+	
+	
+}
+
+input[type="text"]:hover, input[type="password"]:hover,input[type="number"]:hover{
+
+	background-color:ghostwhite;
+}
+
+input[type="submit"]{
+	padding: 10px;
+	color: #fff;
+	background: #0098cb;
+	width: 320px;
+	margin:20px auto; 
+	margin-top:0;
+	border:0;
+	border-radius: 30px;
+	cursor:pointer;
+	
+}
+input[type="submit"]:hover{
+	background-color:#00b8eb;
+	
+}
+
+.navbar{
+	padding: 10px;
+	margin: 0%;
+	width: 100%;
+	height: 70px;
+	background-color:#5f9ea0;
+	background-image: url(/img/1logo3.png);
+
+}
+
+ .logo{
+	
+	float: left;
+	background-image: url(/img/logo2.png);
+	background-color: #5f9ea0;
+	padding: 5px;
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 70px;
+
+
+	
+} 
+.menu-right {
+	float:right;
+}
+li{
+	list-style-type: none;
+	float: left;
+
+	
+}
+.menu a{
+	float: left;
+	padding: 20px;
+	text-decoration: none;
+	color: #2b2b2b;
+	font-weight: bold;
+}
+.menu a:hover{
+	color: #ffffff;
+	background-color:#5f9ea0 ;
+}
+
+#menu-align{
+	padding-left: 30%;
+}
+
+.panel{
+	background-color: #44454535;
+	float: left;
+	margin: 50px;
+	margin-left: 15%;
+	width:65%;
+	height: 100%;
+	border-radius: 15px;
+	text-align: center;
+
+
+}
+
+section{
+	padding: 20px;
+	margin-left: 15%;
+	display: flex;
+	width: 600px;
+	height: 430px;
+}
+section img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+}
+
+section img:hover{
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
+}
+
+.align-center{
+	text-align: center;
+}
+.error{
+	background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+	display:none;
+    
+}
+
+
+
+.exito{
+	background-color: #0098cb;
+    position: absolute;
+    top:	0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+	display: none;
+	
+}
+
+.err {
+	background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+	display: none;
+	
+}
+
+.borrado {
+	background-color: #0098cb;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+	display: none;
+	
+}
+
+.noborrado {
+	background-color: #E74F4F;
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+	display: none;
+	
+}
+
+
+button {
+	padding: 10px;
+	color: #fff;
+	background: #0098cb;
+	width: 200px;
+	margin:20px auto; 
+	margin-top:0;
+	border:0;
+	border-radius: 0px;
+	cursor:pointer;
+	display:block;
+	
+	
+}	
+button:hover{
+		background-color:#00b8eb;
+}
+
+button a {
+
+	text-decoration:none;
+	color:#fff;
+}
+
+ .fs {
+
+	/* width: 40px; */
+	margin-top: 5%;
+	margin-left: 10%; 
+	box-align: center;
+	border-radius: 20px;
+	border: 0px;
+	background: rgba(245, 245, 220, 0.7);
+	box-shadow: 5px 10px 10px #5f9ea0; 
+	width: fit-content;
+	height:fit-content;
+	padding: 20px;
+
+}
+.form-hor, #ingresa{
+	float: left;
+	
+}
+
+
+.table{
+	border-radius: 0;
+	width: 50%;
+	height: auto;
+	padding: 10px;
+	/* margin-left: 25%; */
+	
+}
+
+table td{
+	text-align: center;
+}
+.thead-color{
+	color: #5f9ea0;
+	
+}
+.th-style{
+	border: black 1px solid ;
+}
+
+#lista-pacientes{
+	font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+#lista-pacientes td, #lista-pacientes th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#lista-pacientes tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#lista-pacientes tr:hover{
+	background-color: #ddd;
+}
+
+#lista-pacientes th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+.buscar-id, .elimina-id{
+	float: left;
+	padding: 20px;
+	
+}
+.buscar-id{
+	margin-left: 20%;
+}
